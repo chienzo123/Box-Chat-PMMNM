@@ -37,7 +37,7 @@ def tienxuly(document):
     return document
 
 
-stopword = ["nghành","gì","là","trường","mày","bot"]
+stopword = ["nghành","gì","là","trường","năm"]
 
 
 def remove_stopwords(line):
