@@ -61,7 +61,7 @@ def prediction(input):
     predict = le.inverse_transform(predict)[0]
     
     if predict=="noanswer":
-        predict= "xin lỗi bạn, câu hỏi này tôi không biết trả lời như thế nào. Bạn vui lòng liện hệ theo số điện thoại 123456 để được tư vấn trực tiếp"
+        predict= "xin lỗi bạn, câu này tôi không biết trả lời như thế nào. Bạn vui lòng liện hệ theo số điện thoại 123456 để được tư vấn trực tiếp"
     
     return predict
 
